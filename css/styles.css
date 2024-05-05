@@ -3685,6 +3685,7 @@ textarea.form-control-lg {
 }
 
 .nav-link {
+  display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
@@ -10975,8 +10976,10 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+  position: relative;
+  left: -270px;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11209,4 +11212,3 @@ body {
   right: -350px;
   top: 40px;
 }
-
